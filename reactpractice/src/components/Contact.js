@@ -1,5 +1,5 @@
-import Call from "../call.svg";
-import Mail from "../mail.svg";
+import Call from "../svg/call.svg";
+import Mail from "../svg/mail.svg";
 
 function Contact() {
   return (

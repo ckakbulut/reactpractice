@@ -1,7 +1,7 @@
 import React from "react";
-import DownloadLogo from "../download.svg";
-import GooglePlayLogo from "../googleplay.svg";
-import AppStoreLogo from "../appstore.svg";
+import DownloadLogo from "../svg/download.svg";
+import GooglePlayLogo from "../svg/googleplay.svg";
+import AppStoreLogo from "../svg/appstore.svg";
 
 function DownloadGroup() {
   return (

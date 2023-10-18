@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div class="flex flex-row justify-around bg-[#181436] w-full h-[647px]">
       <div class="flex flex-col space-y-8">
-        <CovchatLogo />
+        <CovchatLogo class="mb-4 mt-8" />
         <DownloadGroup />
       </div>
       <div class="flex flex-col pt-[138px]">
