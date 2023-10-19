@@ -3,7 +3,7 @@ import React from "react";
 function GettingStarted() {
   return (
     <div class="h-[320px] bg-[#353875] flex flex-row ">
-      <div class="flex flex-col justify-center w-3/4 text-left pl-12">
+      <div class="flex flex-col justify-center w-3/4 text-left ml-32">
         <p class="text-white text-[24px] font-bold ">Get started now</p>
         <p class="text-white text-[16px]">
           You can easily set up your chat groups by downloading the application.
