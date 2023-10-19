@@ -5,6 +5,7 @@ import Desktopdownload from "../svg/desktopdownload.svg";
 import CovchatLogo from "./CovchatLogo";
 import Prodisplay from "../svg/prodisplay.svg";
 import Iphone from "../svg/iphone.svg";
+import InfoPanel from "./InfoPanel";
 
 function Header() {
   return (
@@ -32,7 +33,7 @@ function Header() {
           <img src={Googleplay} />
         </div>
       </div>
-      <div class="bg-white flex flex-col relative h-[1500px] justify-center items-center">
+      <div class="bg-white flex flex-col relative h-[1100px] items-center justify-end ">
         <img
           class="items-center absolute left-60 top-[-300px]"
           src={Prodisplay}
@@ -46,6 +47,12 @@ function Header() {
             For better and higher quality use, covchat offers you unique
             features. It continues to improve and improves your usage quality.
           </p>
+          <div class="flex flex-row mt-12 mb-32 space-x-4">
+            <InfoPanel title="Trustworthy" />
+            <InfoPanel title="Fast" />
+            <InfoPanel title="Current" />
+            <InfoPanel title="Economical" />
+          </div>
         </>
       </div>
     </>
